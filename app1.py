@@ -20,7 +20,7 @@ def load_data(file_path=None):
     """加载Excel数据并进行基础处理"""
     # 如果没有提供文件路径，尝试使用默认路径或提示用户上传文件
     if file_path is None:
-        file_path = r"C:\Users\30630\Desktop\merged_data(2).xlsx"
+        file_path = r"C:\Users\30630\Desktop\merged_data.xlsx"
     
     try:
         # 读取文件
